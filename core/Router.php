@@ -10,7 +10,6 @@ class Router {
 
 	public static function load($file)
 	{
-		// echo "Hello Router";
 		$router = new static;//khai bao router thanh 1 class?
 		require $file;
 		return $router;
