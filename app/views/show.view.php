@@ -5,7 +5,7 @@
 <?php var_dump($task); ?>
 
 <form method="POST" action="/task/edit">
-	<input type="text" name="id" value="<?= $task->id ?>" disabled>
+	<input type="text" name="id" value="<?= $task->id ?>" hidden>
 	<input type="text" name="update" value="<?= $task->name ?>">
 	<button type="submit">submit</button>
 </form>
