@@ -1,7 +1,8 @@
 <?php 
 
 use core\App;
-use core\database\{Connection, QueryBuilder};
+use core\database\Connection;
+use core\database\QueryBuilder;
 
 function view($name, $data = [])
 {
