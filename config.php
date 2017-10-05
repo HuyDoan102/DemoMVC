@@ -11,15 +11,15 @@
 			PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
 		]
 	]
-];
-*/
+];*/
+
 return [
 
 	'database' => [
-		'name' => 'b15_20795047_neolab',
-		'username' => 'b15_20795047',
-		'password' => '',
-		'connection' => 'sql309.byethost15.com',
+		'name' => 'sql3197834',
+		'username' => 'sql3197834',
+		'password' => 'KrLwe18mU3',
+		'connection' => 'mysql:host=sql3.freemysqlhosting.net',
 		'options' => [
 			PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
 		]
